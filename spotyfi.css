@@ -1,0 +1,390 @@
+    * {
+        margin: 0;
+        font-family: monospace, sans-serif;
+        background-color: black;
+        color: white;
+        overflow: hidden;
+    }
+
+    .main {
+        display: flex;
+        height: 100vh;
+        background-color: black;
+
+    }
+
+    .sidbar {
+        background-color: #000;
+        width: 330px;
+        border-radius: 1rem;
+        /*16xp*/
+        padding: 10px;
+    }
+
+    .main-con {
+        background-color: #121212;
+        flex: 1;
+        border-radius: 1r   em;
+        overflow: auto;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .footer {
+        background-color: #000;
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        height: 72px;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    .nav {
+        background-color: #121212;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        padding: 0.5rem 0.75rem;
+
+    }
+
+    .nav-option {
+        margin-top: 10px;
+        line-height: 2.5rem;
+        opacity: 0.5;
+
+    }
+
+    .nav-option:hover {
+
+        opacity: 1;
+
+    }
+
+    .nav-option i {
+        font-size: 1.25rem;
+    }
+
+    .nav-option a {
+        font-size: 1rem;
+    }
+
+    .library {
+        background-color: #121212;
+        border-radius: 1rem;
+        margin-top: 10px;
+        height: 100%;
+
+    }
+
+    .option {
+        background-color: #121212;
+        display: flex;
+        align-items: center;
+        /* height: 100%; */
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .lib-option img {
+        width: 16px;
+        height: 16px;
+
+    }
+
+    .lib-option img,
+    a {
+        opacity: 0.5;
+    }
+
+    .lib-option img,
+    a:hover {
+        opacity: 1;
+    }
+
+    .icon {
+        font-size: 20px;
+        display: flex;
+    }
+
+    .icon i {
+        margin-right: 1rem;
+        opacity: 0.5;
+    }
+
+    .icon i:hover {
+        opacity: 1;
+    }
+
+    .box {
+        padding: 1rem 1.25rem;
+        height: 8rem;
+        margin: 0.5rem;
+        border-radius: 1rem;
+        background-color: #232323;
+        color: white;
+    }
+
+    .box-p1 {
+        font-size: large;
+        font-weight: 500;
+        line-height: 30px;
+        background-color: #232323;
+    }
+
+    .box-p2 {
+        font-size: 1rem;
+        opacity: 0.9;
+        line-height: 50px;
+        background-color: #232323;
+    }
+
+    .badge {
+        border-radius: 100px;
+        border: none;
+        padding: 0.25rem;
+        font-weight: 700;
+        margin-top: 10px;
+        height: 2rem;
+        width: fit-content;
+    }
+
+    .badge2 {
+        border-radius: 100px;
+        border: none;
+        padding: 0.25rem;
+        font-weight: 800;
+        margin-top: 10px;
+        height: 2.3rem;
+        width: fit-content;
+        font-size: 1rem;
+    }
+
+    .box2 {
+        padding: 1rem 1.25rem;
+        height: 9rem;
+        margin: 0.5rem;
+        border-radius: 1rem;
+        color: white;
+        background-color: #232323;
+    }
+
+    .box-p3 {
+        font-size: large;
+        font-weight: 500;
+
+        background-color: #232323;
+    }
+
+    .box-p4 {
+        font-size: 1rem;
+        opacity: 0.9;
+        line-height: 20px;
+        margin-top: 5px;
+        background-color: #232323;
+
+    }
+
+    .nav-con {
+        position: sticky;
+        top: 0;
+        background-color: #121212;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .nav-con-icon img {
+        margin-left: 10px;
+    }
+
+    .nav-user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav-user button {
+        margin-right: 15px;
+        font-size: 15px;
+        opacity: 0.7;
+    }
+
+    .nav-user button:hover {
+        opacity: 1;
+    }
+
+    @media(max-width:1000px) {
+        .hide {
+            display: none;
+        }
+    }
+
+    .card {
+        background-color: #232323;
+        width: 150px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .card-con {
+        display: flex;
+        background-color: #121212;
+        flex-wrap: wrap;
+
+    }
+
+    .hi {
+        display: inline;
+    }
+
+    .card-title {
+        font-weight: 900;
+    }
+
+    .card-info {
+        font-size: 13px;
+        opacity: 0.8;
+    }
+
+    .footer2 {
+        height: 300px;
+        display: flex;
+        background-color: #121212;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        width: 90%;
+        height: 30%;
+        border-top: 1px solid white;
+        background-color: #121212;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .album {
+        width: 25%;
+
+        /* background-color: aqua; */
+    }
+
+    .player-controls {
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+       
+
+    }
+
+    .player {
+
+        /* background-color: blue; */
+        width: 50%;
+
+
+
+    }
+
+    .control {
+        width: 25%;
+        /* background-color: aquamarine; */
+    }
+
+    .player-control-icon {
+        height: 1rem;
+        margin-right: 1.75rem;
+        opacity: 0.6;
+    }
+
+    .player-control-icon:hover {
+        opacity: 1;
+    }
+
+    .progress-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        /* margin-right: 100px; */
+        appearance: none;
+    }
+
+    .yu {
+        height: 32px;
+    }
+
+    .yu:hover {
+        height: 34px;
+        display: block;
+    }
+    .album{
+        display: flex;
+        /* justify-content: -between; */
+        align-items: center;
+        padding: 10px;;
+
+
+    }
+    .album img{
+     height: 2.75rem;
+     width: 2.75rem;
+    }
+    .i{
+        margin-left:80px;
+        /* opacity: 0.6; */
+        font-size: 1.3rem;
+    }
+    .i1{
+        opacity: 0.6;
+    }
+    .i2{
+        opacity: 0.6;
+    }
+   .write{
+    margin-left: 10px;
+   }
+   .i1:hover{
+    opacity: 1;
+   }
+   .i2:hover{
+    opacity: 1;
+   }
+
+   .control{
+    padding: 1rem;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+   .control-icon{
+    margin-left: 10px;
+    
+    font-weight: 300;
+   }
+   .op{
+    opacity: 0.6;
+   }
+   .op:hover{
+    opacity: 1;
+   }
